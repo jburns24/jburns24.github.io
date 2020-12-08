@@ -4,7 +4,7 @@ function getQuestion(){
     const xhr = new XMLHttpRequest();
 
     // GitHub endpoint, dynamically passing in specified username
-    const url = './questions.json';
+    const url = './question.json';
 
     xhr.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
